@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Overview | PM2 Documentation
+title: 개요 | PM2 문서
+title-en: Overview | PM2 Documentation
 menu: starter
-lang: en
+lang: ko
 section: runtime
-permalink: "/en/runtime/overview/"
+permalink: "/ko/runtime/overview/"
 ---
 
 <p align="center">
@@ -30,25 +31,28 @@ permalink: "/en/runtime/overview/"
 
 <br/>
 <center>
-    Welcome to the Overview of PM2 Runtime!
+    PM2 Runtime 개요에 오신 것을 환영합니다!
 </center>
 <br/>
-PM2 Runtime is a Production Process Manager for Node.js applications with a built-in Load Balancer. It allows you to keep applications alive forever, to reload them without downtime and facilitate common Devops tasks.
+PM2 Runtime은 로드 밸런서가 내장 된 Node.js 애플리케이션을 위한 Production Process Manager입니다. 애플리케이션을 영구적으로 유지하고, 다운타임 없이 재로드하며 일반적인 Devops 작업을 용이하게 합니다.
 
-Starting an application in production mode is as easy as:
+Production 모드에서 애플리케이션 간단하게 시작하기:
 
 ```bash
 $ pm2 start app.js
 ```
 
-PM2 is constantly assailed by more than [1800 tests](https://travis-ci.org/Unitech/pm2/).
+PM2는 [1800 tests](https://travis-ci.org/Unitech/pm2/)개 이상의 테스트를 통해 지속적으로 제공됩니다.
 
-Works on Linux (stable) & macOS (stable) & Windows (stable). All Node.js versions are supported starting Node.js 4.X.
+Linux (stable) & macOS (stable) & Windows (stable) 에서 동작합니다. Node.js 4.X 부터 모든 Node.js 버전이 지원됩니다.
 
+## Production에 대한 하나의 명령
 ## One command to production
 
+PM2는 충돌 및 시스템 재부팅시 자동으로 재시작하여 애플리케이션을 지속적으로 유지합니다.
 PM2 will keep your application forever alive, auto-restarting across crashes and machine restarts.
 
+Production 모드에서 애플리케이션 간단하게 시작하기:
 Starting your application in production mode is as easy as:
 
 ```bash
