@@ -1,0 +1,175 @@
+runtime:
+  - title: Overview
+    url: "/ko/runtime/overview/"
+  - title: Quick Start
+    url: "/ko/runtime/quick-start/"
+  - title: Features
+    submenu:
+      - page: CLI Cheat Sheet
+        url: "/ko/runtime/features/commands-cheatsheet/"
+      - page: Process Management
+        url: "/ko/runtime/guide/process-management/"
+      - page: Ecosystem File
+        url: "/ko/runtime/guide/ecosystem-file/"
+      - page: Cluster Mode & Reload
+        url: "/ko/runtime/guide/load-balancing/"
+      - page: Watch & Restart
+        url: "/ko/runtime/features/watch-restart/"
+      - page: Restart Strategies
+        url: "/ko/runtime/features/restart-strategies/"
+      - page: Log
+        url: "/ko/runtime/guide/log-management/"
+      - page: Startup Script
+        url: "/ko/runtime/guide/startup-hook/"
+      - page: Entrypoint
+        url: "/ko/runtime/guide/entrypoint/"
+      - page: Memory Limit Reload
+        url: "/ko/runtime/features/memory-limit/"
+      - page: Updating PM2
+        url: "/ko/runtime/features/updating-pm2/"
+      - page: Source Map Support
+        url: "/ko/runtime/features/javascript-source-maps/"
+      - page: Transpilers
+        url: "/ko/runtime/integration/transpilers/"
+      - page: Using PM2 API
+        url: "/ko/runtime/reference/pm2-programmatic/"
+      - page: Easy Deploy with SSH
+        url: "/ko/runtime/guide/easy-deploy-with-ssh/"
+      - page: Graceful Shutdown
+        url: "/ko/runtime/best-practices/graceful-shutdown/"
+      - page: Multiple PM2
+        url: "/ko/runtime/features/multiple-pm2/"
+  - title: Guide
+    submenu:
+      - page: Installation
+        url: "/ko/runtime/guide/installation/"
+      - page: Ecosystem File
+        url: "/ko/runtime/guide/ecosystem-file/"
+      - page: Process Management
+        url: "/ko/runtime/guide/process-management/"
+      - page: Log Management
+        url: "/ko/runtime/guide/log-management/"
+      - page: Startup Hook
+        url: "/ko/runtime/guide/startup-hook/"
+      - page: Load-Balancing
+        url: "/ko/runtime/guide/load-balancing/"
+      - page:  Development Tools
+        url: "/ko/runtime/guide/development-tools/"
+      - page: Easy Deploy with SSH
+        url: "/ko/runtime/guide/easy-deploy-with-ssh/"
+  - title: Best Practices
+    submenu:
+      - page: Environment Variables
+        url: "/ko/runtime/best-practices/environment-variables/"
+      - page: Stateless Application
+        url: "/ko/runtime/best-practices/stateless-application/"
+
+  - title: Integration
+    submenu:
+      - page: AWS Elastic Beanstalk
+        url: "/ko/runtime/integration/elastic-beanstalk/"
+      - page: Docker
+        url: "/ko/runtime/integration/docker/"
+      - page: Heroku
+        url: "/ko/runtime/integration/heroku/"
+      - page: With a Cloud Provider
+        url: "/ko/runtime/integration/cloud-providers/"
+
+  - title: Reference
+    submenu:
+      - page: Ecosystem File
+        url: "/ko/runtime/reference/ecosystem-file/"
+      - page: CLI
+        url: "/ko/runtime/reference/pm2-cli/"
+
+plus:
+  - title: Overview
+    url: "/ko/plus/overview/"
+  - title: Quick Start
+    url: "/ko/plus/quick-start/"
+  - title: Features
+    url: "/ko/plus/guide/"
+    submenu:
+      - page: Server & Apps Overview
+        url: "/ko/plus/guide/server-apps-overview/"
+      - page: Application dashboard
+        url: "/ko/plus/guide/app-dashboard/"
+      - page: Notifications
+        url: "/ko/plus/guide/notifications/"
+      - page: Issue Dashboard
+        url: "/ko/plus/guide/issue-dashboard/"
+      - page: Custom Metrics
+        url: "/ko/plus/guide/custom-metrics/"
+      - page: Custom Actions
+        url: "/ko/plus/guide/custom-actions/"
+      - page: Realtime logs
+        url: "/ko/plus/guide/realtime-logs/"
+      # - page: Transaction Tracing
+      #   url: "/ko/plus/guide/transaction-tracing/"
+      # - page: Memory Snapshot
+      #   url: "/ko/plus/guide/memory-snapshot/"
+      # - page: CPU Profiling
+      #   url: "/ko/plus/guide/cpu-profiling/"
+      - page: Modules
+        url: "/ko/plus/guide/modules/"
+  # - title: Best Practices
+  #   url: "/ko/plus/best-practices/"
+  #   submenu:
+  #     - page: Metrics Glossary
+  #       url: "/ko/plus/best-practices/metrics-glossary/"
+  #     - page: CPU Profiling
+  #       url: "/ko/plus/best-practices/cpu-profiling/"
+  - title: Integration
+    url: "/ko/plus/integration/"
+    submenu:
+      - page: AWS Elastic Beanstalk
+        url: "/ko/plus/integration/elastic-beanstalk/"
+      - page: Docker
+        url: "/ko/plus/integration/docker/"
+      - page: Heroku
+        url: "/ko/plus/integration/heroku/"
+      - page: With a Cloud Provider
+        url: "/ko/plus/integration/cloud-providers/"
+  - title: Reference
+    url: "/ko/plus/reference/pm2io/"
+  - title: FAQ
+    url: "/ko/plus/faq/"
+
+enterprise:
+  - title: Overview
+    url: "/ko/enterprise/overview/"
+  - title: Installation
+    url: "/ko/enterprise/collector/overview"
+    submenu:
+      - page: Node.js with PM2
+        url: "/ko/enterprise/collector/pm2"
+      - page: Node.js without PM2
+        url: "/ko/enterprise/collector/standalone"
+      - page: Prometheus
+        url: "/ko/enterprise/collector/prometheus"
+  - title: Features
+    url: "/ko/enterprise/overview/"
+    submenu:
+      - page: Distributed Tracing
+        url: "/ko/enterprise/guides/distributed-tracing/"
+      - page: Profiling
+        url: "/ko/enterprise/guides/profiling"
+      - page: Alerting
+        url: "/ko/enterprise/guides/alerting"
+      - page: Dashboards
+        url: "/ko/enterprise/guides/dashboard"
+      - page: Log
+        url: "/ko/enterprise/guides/log"
+      - page: Webchecks
+        url: "/ko/enterprise/guides/webchecks/"
+      - page: Golang
+        url: "/ko/enterprise/collector/go"
+  - title: Frontend Monitoring
+    url: "/ko/enterprise/frontend-monitoring/overview/"
+    submenu:
+      - page: Installation
+        url: "/ko/enterprise/frontend-monitoring/install/"
+      - page: Snippet API
+        url: "/ko/enterprise/frontend-monitoring/snippet-api/"
+  - title: On-Premise
+    url: "/ko/enterprise/on-premise/"
